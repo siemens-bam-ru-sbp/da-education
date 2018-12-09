@@ -15,3 +15,4 @@ Examples:
 	- each microphone records a different overlapping combination of these two speaker voices
 	- separate out these two audio sources that were being added or being summed together
 	- [W, s, v] = svd((repmat(sum(x.\*x,1, size(x, 1),1).\*x)\*x')
+	
